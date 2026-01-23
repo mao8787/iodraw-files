@@ -32,13 +32,13 @@
           <mxGeometry x="350" y="615" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uc8" value="个人信息管理" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="360" y="790" width="140" height="60" as="geometry" />
+          <mxGeometry x="350" y="740" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uc9" value="健康档案上传" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="360" y="880" width="140" height="60" as="geometry" />
+          <mxGeometry x="350" y="827.5" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uc10" value="陪诊须知查看" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="360" y="970" width="140" height="60" as="geometry" />
+          <mxGeometry x="340" y="920" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uc3_1" value="在线挂号预约" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="680" y="210" width="130" height="55" as="geometry" />
