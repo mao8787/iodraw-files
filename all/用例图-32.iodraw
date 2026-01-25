@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="用户端用例图" id="user-usecase">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <mxCell id="boundary" value="医院陪诊系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;verticalAlign=top;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="900" height="900" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="actor" value="用户(患者)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="50" height="100" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc1" value="注册登录" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="挂号服务查询" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="预约陪诊服务" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="我的订单" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" value="我的评价" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" value="个人信息管理" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" value="健康档案上传" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" value="通知公告" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" value="意见反馈" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="790" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" value="AI智能客服" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc2_1" value="在线挂号预约" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="130" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_2" value="查看医生排班" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_1" value="智能推荐陪诊员" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4_1" value="支付订单" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6_1" value="修改个人资料" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6_2" value="修改密码" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8_1" value="查看陪诊须知" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="670" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8_2" value="查看系统公告" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="740" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8_3" value="查看消息通知" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="700" width="130" height="55" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc4_2" value="取消订单" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4_3" value="确认完成订单" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="310" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4_4" value="实时位置追踪" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="380" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4_5" value="查看订单详情" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="450" width="130" height="55" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="line1" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line2" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line3" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line4" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line5" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line6" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line7" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line8" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line9" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line10" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="actor" target="uc10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="inc1" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc2" target="uc2_1">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc2" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc2" target="uc2_2">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc3" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc3" target="uc3_1">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc4" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc4" target="uc4_1">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc5" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc6" target="uc6_1">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc6" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc6" target="uc6_2">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc7" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc8" target="uc8_1">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc8" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc8" target="uc8_2">
+          <mxGeometry x="-0.1" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="ext1" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc4_2" target="uc4">
+          <mxGeometry x="-0.1" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext2" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc4_3" target="uc4">
+          <mxGeometry x="-0.1" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext3" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc4_4" target="uc4">
+          <mxGeometry x="-0.1" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext4" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc4_5" target="uc4">
+          <mxGeometry x="-0.1" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext5" value="&lt;&lt;extend&gt;&gt;" style="endArrow=open;html=1;dashed=1;dashPattern=5 5;strokeColor=#000000;fontSize=10;endFill=0;strokeWidth=1.5;" edge="1" parent="1" source="uc8_3" target="uc8">
+          <mxGeometry x="-0.1" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
