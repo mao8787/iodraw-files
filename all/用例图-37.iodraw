@@ -50,13 +50,13 @@
           <mxGeometry x="680" y="410" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc6_1" value="编辑个人资料" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="680" y="490" width="130" height="55" as="geometry" />
+          <mxGeometry x="670" y="540" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc6_2" value="更新服务标签" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="680" y="560" width="130" height="55" as="geometry" />
+          <mxGeometry x="670" y="600" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc7_1" value="查看收入明细" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="680" y="630" width="130" height="55" as="geometry" />
+          <mxGeometry x="670" y="670" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc3_4" value="上报异常" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="840" y="215" width="130" height="55" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="1000" y="360" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc5_1" value="回复用户评价" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="680" y="430" width="130" height="55" as="geometry" />
+          <mxGeometry x="670" y="480" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc7_2" value="查看收入趋势图" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="670" y="740" width="130" height="55" as="geometry" />
