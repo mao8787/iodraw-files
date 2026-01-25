@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="boundary" value="医院陪诊系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;verticalAlign=top;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="boundary" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;verticalAlign=top;fontSize=16;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="40" width="900" height="900" as="geometry" />
         </mxCell>
         <mxCell id="actor" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=14;" parent="1" vertex="1">
@@ -65,7 +65,7 @@
           <mxGeometry x="680" y="740" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc8_3" value="查看消息通知" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="700" width="130" height="55" as="geometry" />
+          <mxGeometry x="680" y="820" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="uc4_2" value="取消订单" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="680" y="380" width="130" height="55" as="geometry" />
