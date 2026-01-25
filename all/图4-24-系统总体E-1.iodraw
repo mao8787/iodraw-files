@@ -1,0 +1,328 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="24.7.17">
+  <diagram name="系统总体E-R图" id="system-er-diagram">
+    <mxGraphModel dx="1246" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="user-entity" value="用户" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="200" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="user-id" value="&lt;u&gt;user_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="120" y="30" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="user-phone" value="phone" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="215" y="25" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="user-nickname" value="nickname" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="310" y="30" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-user-id" style="endArrow=none;html=1;" parent="1" source="user-id" target="user-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-user-phone" style="endArrow=none;html=1;" parent="1" source="user-phone" target="user-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-user-nickname" style="endArrow=none;html=1;" parent="1" source="user-nickname" target="user-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="companion-entity" value="陪诊员" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="600" y="80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="companion-id" value="&lt;u&gt;companion_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="510" y="30" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="companion-name" value="real_name" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="620" y="25" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="companion-rating" value="avg_rating" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="720" y="30" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-companion-id" style="endArrow=none;html=1;" parent="1" source="companion-id" target="companion-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-companion-name" style="endArrow=none;html=1;" parent="1" source="companion-name" target="companion-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-companion-rating" style="endArrow=none;html=1;" parent="1" source="companion-rating" target="companion-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="notif-entity" value="通知" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="notif-id" value="&lt;u&gt;notification_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="20" y="25" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-notif-id" style="endArrow=none;html=1;" parent="1" source="notif-id" target="notif-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="order-entity" value="陪诊订单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="400" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="order-id" value="&lt;u&gt;order_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="345" y="190" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order-status" value="status" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="430" y="180" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="order-fee" value="fee" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="505" y="180" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-id" style="endArrow=none;html=1;" parent="1" source="order-id" target="order-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-status" style="endArrow=none;html=1;" parent="1" source="order-status" target="order-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-fee" style="endArrow=none;html=1;" parent="1" source="order-fee" target="order-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-entity" value="支付" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="620" y="320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-id" value="&lt;u&gt;payment_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="620" y="390" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-payment-id" style="endArrow=none;html=1;" parent="1" source="payment-id" target="payment-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rating-entity" value="评价" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="750" y="255" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rating-id" value="&lt;u&gt;rating_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="750" y="200" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rating-id" style="endArrow=none;html=1;" parent="1" source="rating-id" target="rating-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-entity" value="挂号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="400" y="420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-id" value="&lt;u&gt;reg_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="330" y="380" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-date" value="reg_date" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="415" y="490" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-status" value="status" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="510" y="380" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-reg-id" style="endArrow=none;html=1;" parent="1" source="reg-id" target="reg-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-reg-date" style="endArrow=none;html=1;" parent="1" source="reg-date" target="reg-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-reg-status" style="endArrow=none;html=1;" parent="1" source="reg-status" target="reg-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hospital-entity" value="医院" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hospital-id" value="&lt;u&gt;hospital_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="30" y="560" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hospital-name" value="name" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="125" y="550" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hospital-address" value="address" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="190" y="540" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-hospital-id" style="endArrow=none;html=1;" parent="1" source="hospital-id" target="hospital-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-hospital-name" style="endArrow=none;html=1;" parent="1" source="hospital-name" target="hospital-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-hospital-address" style="endArrow=none;html=1;" parent="1" source="hospital-address" target="hospital-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dept-entity" value="科室" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="300" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dept-id" value="&lt;u&gt;dept_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="250" y="560" width="65" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dept-name" value="dept_name" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="325" y="550" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-dept-id" style="endArrow=none;html=1;" parent="1" source="dept-id" target="dept-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-dept-name" style="endArrow=none;html=1;" parent="1" source="dept-name" target="dept-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor-entity" value="医生" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="500" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor-id" value="&lt;u&gt;doctor_id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="440" y="560" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor-name" value="name" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="550" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="doctor-title" value="title" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="605" y="560" width="55" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-doctor-id" style="endArrow=none;html=1;" parent="1" source="doctor-id" target="doctor-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-doctor-name" style="endArrow=none;html=1;" parent="1" source="doctor-name" target="doctor-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-doctor-title" style="endArrow=none;html=1;" parent="1" source="doctor-title" target="doctor-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-user-notif" value="接收" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="140" y="85" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-notif-rel" style="endArrow=none;html=1;" parent="1" source="notif-entity" target="rel-user-notif" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-user-notif" style="endArrow=none;html=1;" parent="1" source="rel-user-notif" target="user-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-notif-n" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="130" y="95" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-user-1-notif" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="185" y="95" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-user-order" value="创建" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="265" y="177.5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-user-order" style="endArrow=none;html=1;" parent="1" source="user-entity" target="rel-user-order" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-user" style="endArrow=none;html=1;" parent="1" source="rel-user-order" target="order-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-user-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="250" y="140" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-order-n1" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="380" y="230" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-companion-order" value="接单" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="605" y="150" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-companion-order" style="endArrow=none;html=1;" parent="1" source="companion-entity" target="rel-companion-order" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-companion" style="endArrow=none;html=1;" parent="1" source="rel-companion-order" target="order-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-companion-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="650" y="140" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-order-n2" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="510" y="230" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-order-payment" value="支付" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="540" y="295" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-payment" style="endArrow=none;html=1;" parent="1" source="order-entity" target="rel-order-payment" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-payment-order" style="endArrow=none;html=1;" parent="1" source="rel-order-payment" target="payment-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-order-1-pay" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="510" y="265" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-payment-n" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="600" y="305" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-order-rating" value="评价" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="690" y="255" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-rating" style="endArrow=none;html=1;" parent="1" source="order-entity" target="rel-order-rating" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-rating-order" style="endArrow=none;html=1;" parent="1" source="rel-order-rating" target="rating-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-order-1-rating" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="500" y="280" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-rating-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="735" y="265" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-order-reg" value="关联" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="425" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-order-reg" style="endArrow=none;html=1;" parent="1" source="order-entity" target="rel-order-reg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-reg-order" style="endArrow=none;html=1;" parent="1" source="rel-order-reg" target="reg-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-order-1-reg" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="450" y="310" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-reg-1-order" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="450" y="395" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-user-reg" value="预约" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="225" y="425" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-user-reg" style="endArrow=none;html=1;" parent="1" source="user-entity" target="rel-user-reg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-reg-user" style="endArrow=none;html=1;" parent="1" source="rel-user-reg" target="reg-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-user-1-reg" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="275" y="140" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-reg-n-user" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="380" y="435" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-hospital-dept" value="包含" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="225" y="605" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-hospital-dept" style="endArrow=none;html=1;" parent="1" source="hospital-entity" target="rel-hospital-dept" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-dept-hospital" style="endArrow=none;html=1;" parent="1" source="rel-hospital-dept" target="dept-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-hospital-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="205" y="615" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-dept-n-hosp" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="280" y="615" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-dept-doctor" value="拥有" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="425" y="605" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-dept-doctor" style="endArrow=none;html=1;" parent="1" source="dept-entity" target="rel-dept-doctor" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-doctor-dept" style="endArrow=none;html=1;" parent="1" source="rel-dept-doctor" target="doctor-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-dept-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="405" y="615" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-doctor-n-dept" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="480" y="615" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-doctor-reg" value="接诊" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="485" y="510" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-doctor-reg" style="endArrow=none;html=1;" parent="1" source="doctor-entity" target="rel-doctor-reg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-reg-doctor" style="endArrow=none;html=1;" parent="1" source="rel-doctor-reg" target="reg-entity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-doctor-1" value="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="550" y="560" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="label-reg-n-doctor" value="N" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="510" y="445" width="15" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
